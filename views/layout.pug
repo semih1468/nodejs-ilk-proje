@@ -1,0 +1,157 @@
+doctype html
+html
+	head
+		// Basic
+		meta(charset='utf-8')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge')
+		title Porto - Responsive HTML5 Template 4.9.2
+		meta(name='keywords', content='HTML5 Template')
+		meta(name='description', content='Porto - Responsive HTML5 Template')
+		meta(name='author', content='okler.net')
+		// Favicon
+		link(rel='shortcut icon', href='img/favicon.ico', type='image/x-icon')
+		link(rel='apple-touch-icon', href='img/apple-touch-icon.png')
+		// Mobile Metas
+		meta(name='viewport', content='width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no')
+		// Web Fonts
+		link(href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light', rel='stylesheet', type='text/css')
+		// Vendor CSS
+		link(rel='stylesheet', href='vendor/bootstrap/css/bootstrap.min.css')
+		link(rel='stylesheet', href='vendor/font-awesome/css/font-awesome.min.css')
+		link(rel='stylesheet', href='vendor/simple-line-icons/css/simple-line-icons.min.css')
+		link(rel='stylesheet', href='vendor/owl.carousel/assets/owl.carousel.min.css')
+		link(rel='stylesheet', href='vendor/owl.carousel/assets/owl.theme.default.min.css')
+		link(rel='stylesheet', href='vendor/magnific-popup/magnific-popup.min.css')
+		// Theme CSS
+		link(rel='stylesheet', href='css/theme.css')
+		link(rel='stylesheet', href='css/theme-elements.css')
+		link(rel='stylesheet', href='css/theme-blog.css')
+		link(rel='stylesheet', href='css/theme-shop.css')
+		link(rel='stylesheet', href='css/theme-animate.css')
+		// Current Page CSS
+		link(rel='stylesheet', href='vendor/rs-plugin/css/settings.css')
+		link(rel='stylesheet', href='vendor/rs-plugin/css/layers.css')
+		link(rel='stylesheet', href='vendor/rs-plugin/css/navigation.css')
+		// Skin CSS
+		link(rel='stylesheet', href='css/skins/skin-law-firm.css')
+		// Demo CSS
+		link(rel='stylesheet', href='css/demos/demo-law-firm.css')
+		// Theme Custom CSS
+		link(rel='stylesheet', href='css/custom.css')
+		// Head Libs
+		script(src='vendor/modernizr/modernizr.min.js')
+	body
+		.body
+			header#header.header-no-border-bottom(data-plugin-options='{"stickyEnabled": true, "stickyEnableOnBoxed": true, "stickyEnableOnMobile": true, "stickyStartAt": 115, "stickySetTop": "-115px", "stickyChangeLogo": false}')
+				.header-body
+					.header-container.container
+						.header-row
+							.header-column
+								.header-logo
+									a(href='demo-law-firm.html')
+										img(alt='Porto', width='164', height='54', data-sticky-width='82', data-sticky-height='40', data-sticky-top='33', src='img/demos/law-firm/logo-law-firm.png')
+							.header-column
+								ul.header-extra-info
+									li
+										.feature-box.feature-box-call.feature-box-style-2
+											.feature-box-icon
+												i.icon-call-end.icons
+											.feature-box-info
+												h4.mb-none (800) 123-4567
+									li.hidden-xs
+										.feature-box.feature-box-mail.feature-box-style-2
+											.feature-box-icon
+												i.icon-envelope.icons
+											.feature-box-info
+												h4.mb-none
+													a(href='mailto:mail@example.com') mail@example.com
+					.header-container.header-nav.header-nav-bar.header-nav-bar-primary
+						.container
+							button.btn.header-btn-collapse-nav(data-toggle='collapse', data-target='.header-nav-main')
+								| Menu
+								i.fa.fa-bars
+							.header-search.visible-lg
+								form#searchForm(action='page-search-results.html', method='get')
+									.input-group
+										input#q.form-control(type='text', name='q', placeholder='Search...', required='')
+										span.input-group-btn
+											button.btn.btn-default(type='submit')
+												i.icon-magnifier.icons
+							.header-nav-main.header-nav-main-light.header-nav-main-effect-1.header-nav-main-sub-effect-1.collapse
+								nav
+									ul#mainNav.nav.nav-pills
+										li.active
+											a(href='demo-law-firm.html') Home
+										li
+											a(href='demo-law-firm-about-us.html') About Us
+										li
+											a(href='demo-law-firm-attorneys.html') Attorneys
+										li
+											a(href='demo-law-firm-practice-areas.html') Practice Areas
+										li
+											a(href='demo-law-firm-news.html') News
+										li
+											a(href='demo-law-firm-contact-us.html') Contact Us
+block content
+block footer
+			footer#footer.short
+				.container
+					.row
+						.col-md-5
+							a.logo.mb-md(href='demo-law-firm.html')
+								img.img-responsive(alt='Porto Website Template', width='97', height='32', src='img/demos/law-firm/logo-law-firm-footer.png')
+							p
+								| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu pulvinar magna. Phasellus semper scelerisque purus, et semper nisl lacinia sit amet. Praesent venenatis turpis vitae purus semper, eget sagittis velit venenatis.
+						.col-md-3.col-md-offset-1
+							h5.mb-sm Porto Law Firm
+							ul.list.list-icons.mt-xl
+								li
+									i.fa.fa-map-marker
+									strong Address:
+									|  1234 Street Name, City Name, United States
+								li
+									i.fa.fa-envelope
+									strong Email:
+									a(href='mailto:mail@example.com') mail@example.com
+						.col-md-3
+							h5.mb-sm Toll Free
+							span.phone (800) 123-4567
+							ul.social-icons.mt-lg
+								li.social-icons-facebook
+									a(href='http://www.facebook.com/', target='_blank', title='Facebook')
+										i.fa.fa-facebook
+								li.social-icons-twitter
+									a(href='http://www.twitter.com/', target='_blank', title='Twitter')
+										i.fa.fa-twitter
+								li.social-icons-linkedin
+									a(href='http://www.linkedin.com/', target='_blank', title='Linkedin')
+										i.fa.fa-linkedin
+				.footer-copyright
+					.container
+						.row
+							.col-md-12
+								p
+									| © Copyright 2016. All Rights Reserved.
+									a(href='demo-law-firm-contact-us.html') Contact
+
+script(src='vendor/jquery/jquery.min.js')
+script(src='vendor/jquery.appear/jquery.appear.min.js')
+script(src='vendor/jquery.easing/jquery.easing.min.js')
+script(src='vendor/jquery-cookie/jquery-cookie.min.js')
+script(src='vendor/bootstrap/js/bootstrap.min.js')
+script(src='vendor/common/common.min.js')
+script(src='vendor/jquery.validation/jquery.validation.min.js')
+script(src='vendor/jquery.easy-pie-chart/jquery.easy-pie-chart.min.js')
+script(src='vendor/jquery.gmap/jquery.gmap.min.js')
+script(src='vendor/jquery.lazyload/jquery.lazyload.min.js')
+script(src='vendor/isotope/jquery.isotope.min.js')
+script(src='vendor/owl.carousel/owl.carousel.min.js')
+script(src='vendor/magnific-popup/jquery.magnific-popup.min.js')
+script(src='vendor/vide/vide.min.js')
+script(src='js/theme.js')
+script(src='vendor/rs-plugin/js/jquery.themepunch.tools.min.js')
+script(src='vendor/rs-plugin/js/jquery.themepunch.revolution.min.js')
+script(src='js/views/view.contact.js')
+script(src='js/demos/demo-law-firm.js')
+script(src='js/custom.js')
+script(src='js/theme.init.js')
